@@ -19,7 +19,7 @@ class Config:
     # Google Cloud Project Configuration
     PROJECT_ID: str = os.getenv(
         "GCP_PROJECT_ID", 
-        "gen-lang-client-0685740442"
+        "your-project-id"
     )
     
     LOCATION: str = os.getenv(
@@ -29,7 +29,7 @@ class Config:
     
     STAGING_BUCKET: str = os.getenv(
         "GCP_STAGING_BUCKET", 
-        "gs://career-prep-agent-lv"
+        "gs://your-staging-bucket"
     )
     
     # Authentication
